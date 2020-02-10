@@ -23,7 +23,7 @@ public class TestGuessNumber {
 
     @Test
     public void testNum(){
-         number = (int) Math.floor(Math.random() * ++max);
+         number = (int) Math.floor(Math.random() * max);
          if(number != guessNumber){
 
              model.setArr(number);
@@ -34,6 +34,5 @@ public class TestGuessNumber {
          }
 
     }
-
 
 }

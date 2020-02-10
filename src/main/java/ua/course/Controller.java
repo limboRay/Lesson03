@@ -63,7 +63,7 @@ public class Controller {
 
     public int guessNum() {
         int max = 100;
-        int guessNumber = (int) Math.floor(Math.random() * ++max);
+        int guessNumber = (int) Math.floor(Math.random() * max);
         return guessNumber;
     }
 
